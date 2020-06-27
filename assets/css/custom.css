@@ -209,3 +209,50 @@ input.form-control {
 }
 
 /* end sign_up page */
+
+/* forgot password */
+
+.forgot_password {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/background.png) no-repeat center center;
+  background-size: cover;
+}
+
+.forgot_password_form {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.forgot_password_form .forgot_password_icon {
+  position: absolute;
+  top: -10%;
+  right: -10%;
+  max-width: 100px;
+}
+
+.password_wraning {
+  color: #9B9B9B;
+}
+
+.password_wraning span {
+  color: #6d48e5;
+}
+
+@media screen and (max-width: 767px) {
+  .forgot_password {
+    width: 90%;
+    height: auto;
+    margin: 60px auto;
+  }
+  .forgot_password_form {
+    padding: 60px 10px 60px 10px;
+  }
+}
+
+/* end forgot password */
