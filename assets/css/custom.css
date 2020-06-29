@@ -174,6 +174,11 @@ input.form-control {
   }
 }
 
+.remember_pw,
+.forgot_pw {
+  font-size: 12px;
+}
+
 @media screen and (max-width: 575px) {
   .signin_intro .wrapper_img,
   .signup_intro .wrapper_img {
@@ -181,6 +186,10 @@ input.form-control {
     bottom: -10%;
     right: -4%;
     max-width: 100px;
+  }
+  .remember_pw,
+  .forgot_pw {
+    font-size: 10px;
   }
 }
 
