@@ -75,12 +75,16 @@ input.form-control {
 }
 
 .btn_color_2 {
-  background: linear-gradient(180deg, #FEB692 -98.18%, #EA5455 185.94%) !important;
+  background: linear-gradient(
+    180deg,
+    #feb692 -98.18%,
+    #ea5455 185.94%
+  ) !important;
   box-shadow: none !important;
 }
 
 .btn_color_2:hover {
-  color: #EA5455 !important;
+  color: #ea5455 !important;
   background: #fff;
 }
 
@@ -93,8 +97,10 @@ input.form-control {
 
 @media screen and (max-width: 768px) {
   .box_shadow {
-    box-shadow: 0 7px 14px 0 rgba(65, 69, 88, .1), 0 3px 6px 0 rgba(0, 0, 0, .07);
-    -webkit-box-shadow: 0 7px 14px 0 rgba(65, 69, 88, .1), 0 3px 6px 0 rgba(0, 0, 0, .07);
+    box-shadow: 0 7px 14px 0 rgba(65, 69, 88, 0.1),
+      0 3px 6px 0 rgba(0, 0, 0, 0.07);
+    -webkit-box-shadow: 0 7px 14px 0 rgba(65, 69, 88, 0.1),
+      0 3px 6px 0 rgba(0, 0, 0, 0.07);
   }
 }
 
@@ -104,7 +110,8 @@ input.form-control {
 
 /* sign_in page */
 
-.sign_in, .sign_up {
+.sign_in,
+.sign_up {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -112,17 +119,20 @@ input.form-control {
   align-items: center;
 }
 
-.sign_in .form_group, .sign_up .form_group {
+.sign_in .form_group,
+.sign_up .form_group {
   width: 100%;
 }
 
-.signin_form, .signup_form {
+.signin_form,
+.signup_form {
   width: 100%;
   padding: 40px;
 }
 
-.signin_intro, .signup_intro {
-  background: url('../images/background1x1.png') center center no-repeat;
+.signin_intro,
+.signup_intro {
+  background: url("../images/background1x1.png") center center no-repeat;
   height: 100%;
   width: 100%;
   color: #fff;
@@ -131,7 +141,8 @@ input.form-control {
   border-radius: 0px 10px 10px 0px;
 }
 
-.signin_intro .wrapper_img, .signup_intro .wrapper_img {
+.signin_intro .wrapper_img,
+.signup_intro .wrapper_img {
   position: absolute;
   bottom: -20%;
   right: -15%;
@@ -139,19 +150,23 @@ input.form-control {
 }
 
 @media screen and (max-width: 767px) {
-  .sign_in, .sign_up {
+  .sign_in,
+  .sign_up {
     width: 90%;
     height: auto;
     margin: 60px auto;
   }
-  .signin_form, .signup_form {
+  .signin_form,
+  .signup_form {
     padding: 60px 10px 60px 10px;
   }
-  .signin_intro, .signup_intro {
+  .signin_intro,
+  .signup_intro {
     padding: 60px 10px 60px 10px;
     border-radius: 0px 0px 10px 10px;
   }
-  .signin_intro .wrapper_img, .signup_intro .wrapper_img {
+  .signin_intro .wrapper_img,
+  .signup_intro .wrapper_img {
     position: absolute;
     bottom: -10%;
     right: -10%;
@@ -160,7 +175,8 @@ input.form-control {
 }
 
 @media screen and (max-width: 575px) {
-  .signin_intro .wrapper_img, .signup_intro .wrapper_img {
+  .signin_intro .wrapper_img,
+  .signup_intro .wrapper_img {
     position: absolute;
     bottom: -10%;
     right: -4%;
@@ -184,7 +200,7 @@ input.form-control {
 /* sign_up page */
 
 .confirm_terms {
-  color: #6E6E6E;
+  color: #6e6e6e;
   font-weight: 400;
 }
 
@@ -239,7 +255,7 @@ input.form-control {
 }
 
 .password_wraning {
-  color: #9B9B9B;
+  color: #9b9b9b;
 }
 
 .password_wraning span {
@@ -251,12 +267,13 @@ input.form-control {
     width: 100%;
   }
   .forgot_password_form {
-    padding: 60px 10px 10px 10px;
+    padding: 60px 30px 10px 30px;
   }
   .forgot_password_form .forgot_password_icon {
     top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 80px;
   }
 }
 
