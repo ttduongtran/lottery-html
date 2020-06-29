@@ -4,6 +4,7 @@
  Website: www.themesdesign.in
  File: Main Css File
 */
+
 /* ============
 TABLES OF CSS
 ---------------
@@ -43,10 +44,20 @@ TABLES OF CSS
 33. Extra pages
 34. Account pages
 */
+
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap");
 /* ==============
   General
 ===================*/
+
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-repeat: repeat;
   background: #f9f9f9;
@@ -129,6 +140,7 @@ strong {
 /* ==============
   Bootstrap-custom
 ===================*/
+
 .dropdown-menu {
   padding: 4px 0;
   font-size: 13px;
@@ -330,6 +342,7 @@ dt {
 }
 
 /* Navs & Tabs */
+
 .nav-pills .nav-item.show .nav-link,
 .nav-pills .nav-link.active {
   background-color: #6d48e5;
@@ -410,6 +423,7 @@ dt {
 /* ==============
   Progressbar
 ===================*/
+
 .progress-bar {
   background-color: #6d48e5;
 }
@@ -417,6 +431,7 @@ dt {
 /* ==============
   Pagination
 ===================*/
+
 .page-link {
   color: #6d48e5;
 }
@@ -435,6 +450,7 @@ dt {
 /* ==============
   Helper Classes
 ===================*/
+
 .m-b-5 {
   margin-bottom: 5px;
 }
@@ -607,6 +623,7 @@ dt {
 /* ==============
  Demo Only css
 ===================*/
+
 .button-items .btn {
   margin-top: 8px;
   margin-right: 5px;
@@ -654,6 +671,7 @@ dt {
 /* ==============
   Popover & Tooltips
 ===================*/
+
 .popover-header {
   margin-top: 0;
 }
@@ -665,6 +683,7 @@ dt {
 /* ==============
   Waves Effect
 ===================*/
+
 /*!
  * Waves v0.7.6
  * http://fian.my.id/Waves 
@@ -672,6 +691,7 @@ dt {
  * Copyright 2014-2018 Alfiana E. Sibuea and other contributors 
  * Released under the MIT license 
  * https://github.com/fians/Waves/blob/master/LICENSE */
+
 .waves-effect {
   position: relative;
   cursor: pointer;
@@ -814,6 +834,7 @@ dt {
 }
 
 /******* Metis Menu css *******/
+
 .metismenu {
   padding: 0;
 }
@@ -827,6 +848,7 @@ dt {
 }
 
 /******* Topbar *******/
+
 .topbar {
   position: fixed;
   left: 0;
@@ -1032,6 +1054,7 @@ dt {
 }
 
 /******* Sidemenu *******/
+
 .divider {
   height: 1px;
   width: 100%;
@@ -1138,6 +1161,7 @@ dt {
 }
 
 /******* Enlarged *******/
+
 .enlarged .slimScrollDiv {
   overflow: inherit !important;
 }
@@ -1301,6 +1325,7 @@ dt {
 }
 
 /******* Footer *******/
+
 .footer {
   bottom: 0;
   text-align: center !important;
@@ -1313,6 +1338,7 @@ dt {
 }
 
 /******* Responsive *******/
+
 @media (min-width: 769px) {
   .enlarged {
     min-height: 1200px;
@@ -1393,6 +1419,7 @@ dt {
 }
 
 /******* Content Page *******/
+
 .content-page {
   margin-left: 240px;
   overflow: hidden;
@@ -1405,6 +1432,7 @@ dt {
 }
 
 /******* Page Title *******/
+
 .page-title-box {
   padding: 20px 0px;
 }
@@ -1434,6 +1462,7 @@ dt {
 }
 
 /******* menu light *******/
+
 .left-side-menu-light .side-menu {
   background-color: #ffffff;
 }
@@ -1575,6 +1604,7 @@ dt {
 /* ==============
   Alertify
 ===================*/
+
 .alertify,
 .alertify-logs {
   z-index: 99;
@@ -1602,6 +1632,7 @@ dt {
 /* ==============
   Alertify
 ===================*/
+
 .alertify,
 .alertify-logs {
   z-index: 99;
@@ -1629,6 +1660,7 @@ dt {
 /* =============
    Alerts
 ============= */
+
 .alert {
   position: relative;
   border: 0;
@@ -1705,6 +1737,7 @@ dt {
 /* ==============
   Buttons
 ===================*/
+
 .btn {
   border-radius: 3px;
   font-size: 13px;
@@ -2077,6 +2110,7 @@ button:focus {
 }
 
 /* button Outline */
+
 .btn-outline-primary {
   color: #6d48e5;
   border-color: #6d48e5;
@@ -2150,6 +2184,7 @@ button:focus {
 /* ==============
   Card
 ===================*/
+
 .card {
   border: none;
   -webkit-box-shadow: 0px 0px 13px 0px rgba(236, 236, 241, 0.44);
@@ -2171,6 +2206,7 @@ button:focus {
 /* =============
    Nestable
 ============= */
+
 .custom-dd .dd-list .dd-item .dd-handle {
   background: #f0f4f7;
   border: 1px solid #f0f4f7;
@@ -2258,6 +2294,7 @@ button:focus {
 }
 
 /* Ion Range slider */
+
 .irs--modern .irs-bar,
 .irs--modern .irs-to,
 .irs--modern .irs-from,
@@ -2282,8 +2319,11 @@ button:focus {
 }
 
 /* =========== */
+
 /* Sweet Alert2 */
+
 /* =========== */
+
 .swal2-modal .swal2-title {
   font-size: 24px;
 }
@@ -2350,6 +2390,7 @@ button:focus {
 /* ==============
   Form-elements
 ===================*/
+
 label {
   font-weight: 600;
 }
@@ -2403,6 +2444,7 @@ label {
 /* ==============
   Form-Validation
 ===================*/
+
 .error {
   color: #ff0000;
 }
@@ -2431,7 +2473,9 @@ label {
 /* ==============
   Form-Advanced
 ===================*/
+
 /* Datepicker */
+
 .datepicker {
   border: 1px solid #ced4da;
   padding: 8px;
@@ -2462,6 +2506,7 @@ label {
 }
 
 /* Bootstrap-touchSpin */
+
 .bootstrap-touchspin .input-group-btn-vertical .btn {
   padding: 9px 12px;
 }
@@ -2485,12 +2530,14 @@ label {
 } */
 
 /* Prism */
+
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
   background: #f0f4f7;
 }
 
 /* Rating */
+
 .badge:empty {
   padding: 0;
 }
@@ -2498,6 +2545,7 @@ pre[class*="language-"] {
 /* ==============
   Form Editor
 ===================*/
+
 .mce-panel {
   border-color: #dfe8ee !important;
   background-color: #f0f4f7 !important;
@@ -2516,7 +2564,9 @@ pre[class*="language-"] {
 /* ==============
   Form-Upload
 ===================*/
+
 /* Dropzone */
+
 .dropzone {
   min-height: 230px;
   border: 2px dashed rgba(0, 0, 0, 0.3);
@@ -2531,6 +2581,7 @@ pre[class*="language-"] {
 /* ==============
   Summernote
 ===================*/
+
 .note-btn-group .dropdown-menu > li > a {
   display: block;
   padding: 5px 20px;
@@ -2615,6 +2666,7 @@ pre[class*="language-"] {
 }
 
 /* Activity */
+
 .activity-feed {
   list-style: none;
 }
@@ -2658,6 +2710,7 @@ pre[class*="language-"] {
 /* ==============
   Charts
 ===================*/
+
 .jqstooltip {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -2697,7 +2750,9 @@ pre[class*="language-"] {
 }
 
 /* Morris chart */
+
 /* Morris chart */
+
 .morris-charts text {
   font-family: "Poppins", sans-serif !important;
 }
@@ -2726,6 +2781,7 @@ pre[class*="language-"] {
 }
 
 /* Flot chart */
+
 #flotTip {
   padding: 8px 12px;
   background-color: #ffffff;
@@ -2737,6 +2793,7 @@ pre[class*="language-"] {
 }
 
 /* Chartist chart */
+
 .ct-golden-section:before {
   float: none;
 }
@@ -2851,6 +2908,7 @@ pre[class*="language-"] {
 }
 
 /* C3 chart */
+
 .c3 svg {
   max-width: 100%;
 }
@@ -2897,6 +2955,7 @@ pre[class*="language-"] {
 /* ==============
   Maps
 ===================*/
+
 .gmaps,
 .gmaps-panaroma {
   height: 300px;
@@ -2940,6 +2999,7 @@ pre[class*="language-"] {
 /* ==============
   Tables
 ===================*/
+
 .table {
   margin-bottom: 10px;
 }
@@ -2962,11 +3022,13 @@ pre[class*="language-"] {
 }
 
 /************** datatables ***************/
+
 .dataTables_wrapper.container-fluid {
   width: auto;
 }
 
 /* == Responsive Table ==*/
+
 table.focus-on tbody tr.focused th {
   background-color: #6d48e5;
   color: #ffffff;
@@ -3089,6 +3151,7 @@ table.focus-on tbody tr.focused td {
 /* ==============
   Calendar
 ===================*/
+
 .calendar {
   float: left;
   margin-bottom: 0;
@@ -3196,6 +3259,7 @@ table.focus-on tbody tr.focused td {
 /* ==============
   Email
 ===================*/
+
 .email-leftbar {
   width: 230px;
   float: left;
