@@ -17,7 +17,7 @@ a {
 }
 
 input.form-control {
-  border-radius: 0;
+  border-radius: 0 !important;
   background: none;
   border: none;
   border-bottom: 1px solid #959595 !important;
@@ -31,22 +31,16 @@ input.form-control {
 
 .form-control:focus {
   color: #495057;
-  background-color: #fff;
+  background-color: transparent;
   border-bottom: 1px solid #6d48e5 !important;
   outline: 0;
-  box-shadow: none;
+  box-shadow: none !important;
   transition: all ease-in 0.4s;
 }
 
 .btn {
   font-size: 16px;
   font-weight: 500;
-  padding: 18px 65px;
-  color: #425577;
-  border: none;
-  border-radius: 35px;
-  background: none;
-  background-color: #e2edf9;
   box-shadow: -3px -3px 25px #fff, 2px 2px 20px #b1c1ce;
 }
 
@@ -55,6 +49,47 @@ input.form-control {
     padding: 15px 65px;
     font-size: 14px;
   }
+}
+
+.btn-action {
+  font-family: "Montserrat";
+  display: inline-block;
+  padding: 18px 65px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 2px;
+  margin: 25px 0;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #6d48e5 !important;
+  color: #ffffff !important;
+  border: 1px solid transparent !important;
+  border-radius: 35px;
+  box-sizing: border-box;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn-action:hover {
+  background: #fff !important;
+  color: #6d48e5 !important;
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 100, 0.2);
+  border: 1px solid #6d48e5 !important;
+  outline: none !important;
+  text-decoration: none;
+}
+
+.btn-action:focus,
+.btn-action:active {
+  background: #fff;
+  color: #6d48e5;
+  border: 1px solid transparent !important;
+  outline: none !important;
 }
 
 .txt_15 {
@@ -86,6 +121,7 @@ input.form-control {
 .btn_color_2:hover {
   color: #ea5455 !important;
   background: #fff;
+  border: 1px solid #ea5455 !important;
 }
 
 .box_shadow {
@@ -174,6 +210,11 @@ input.form-control {
   }
 }
 
+.remember_pw,
+.forgot_pw {
+  font-size: 12px;
+}
+
 @media screen and (max-width: 575px) {
   .signin_intro .wrapper_img,
   .signup_intro .wrapper_img {
@@ -181,6 +222,10 @@ input.form-control {
     bottom: -10%;
     right: -4%;
     max-width: 100px;
+  }
+  .remember_pw,
+  .forgot_pw {
+    font-size: 10px;
   }
 }
 
