@@ -552,23 +552,23 @@ input.form-control {
 .transactions,
 .account_deposit .eth_address {
   white-space: nowrap;
-  max-width: 350px;
+  max-width: 300px;
   overflow: hidden;
   text-overflow: ellipsis;
   color: #6d48e5;
   font-weight: 600;
 }
 
-@media screen and (max-width: 768px) {
-  .account_deposit .card_action {
-    margin-top: 30px;
+@media screen and (max-width: 1024px) {
+  .transactions,
+  .account_deposit .eth_address {
+    max-width: 250px;
   }
 }
 
-@media screen and (max-width: 375px) {
-  .transactions,
-  .account_deposit .eth_address {
-    max-width: 280px;
+@media screen and (max-width: 992px) {
+  .account_deposit .card_action {
+    margin-top: 30px;
   }
 }
 
