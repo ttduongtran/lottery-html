@@ -1,3 +1,9 @@
+/* application css */
+
+.section {
+  padding: 15px 0px;
+}
+
 #action-crawl {
   background: #e2edf9;
   color: #425577;
@@ -109,6 +115,18 @@ input.form-control {
   }
 }
 
+.txt_primary {
+  color: #6d48e5 !important;
+}
+
+.txt_secondary {
+  color: #ffb13c !important;
+}
+
+.txt_white {
+  color: #fff !important;
+}
+
 .btn_color_2 {
   background: linear-gradient(
     180deg,
@@ -119,6 +137,17 @@ input.form-control {
 }
 
 .btn_color_2:hover {
+  color: #ea5455 !important;
+  background: #fff;
+  border: 1px solid #ea5455 !important;
+}
+
+.btn_color_3 {
+  background: #e54848 !important;
+  box-shadow: none !important;
+}
+
+.btn_color_3:hover {
   color: #ea5455 !important;
   background: #fff;
   border: 1px solid #ea5455 !important;
@@ -140,7 +169,32 @@ input.form-control {
   }
 }
 
-/* application css */
+.crypto_shadow {
+  border-radius: 20px !important;
+  -webkit-box-shadow: 0px 10px 30px rgba(209, 213, 223, 0.5);
+  border-radius: 20px !important;
+  -moz-box-shadow: 0px 10px 30px rgba(209, 213, 223, 0.5);
+  border-radius: 20px !important;
+  box-shadow: 0px 10px 30px rgba(209, 213, 223, 0.5);
+  border-radius: 20px !important;
+}
+
+.crypto_dark {
+  background: #6d48e5 !important;
+  color: #fff;
+}
+
+.custom_nav_tabs .nav-link {
+  border: none;
+  color: #6e6e6e;
+}
+
+.custom_nav_tabs .nav-item.show .nav-link,
+.custom_nav_tabs .nav-link.active {
+  color: #6d48e5;
+  background-color: #fff;
+  border-bottom: 1px solid #6d48e5;
+}
 
 /* end application css */
 
@@ -335,3 +389,228 @@ input.form-control {
 }
 
 /* end link reset password */
+
+/* ================================ */
+
+/* ================================ */
+
+/* Overview */
+
+.card_body_custom .card_icon {
+  flex: 20%;
+  padding: 15px;
+}
+
+.card_body_custom .card_content {
+  flex: 80%;
+  padding: 15px 5px;
+}
+
+.card_body_custom .card_content .card-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.card_body_custom ul {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.card_body_custom ul li {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  font-weight: bold;
+  background: linear-gradient(
+    180deg,
+    #6d48e5 0%,
+    rgba(109, 72, 229, 0.85) 100%
+  );
+}
+
+.card_body_custom ul li:last-child {
+  background: linear-gradient(180deg, #ffb13c 0%, #ff9900 100%);
+  box-shadow: 4px 4px 4px rgba(255, 177, 60, 0.1);
+}
+
+.card_detail h6 {
+  flex: 50%;
+}
+
+.card_detail h6 span {
+  color: #4887e5;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.crypto_dark .card_body_custom ul li {
+  background: #fff;
+  color: #6d48e5 !important;
+}
+
+.crypto_dark .card_body_custom ul li:last-child {
+  background: linear-gradient(180deg, #ffb13c 0%, #ff9900 100%);
+  box-shadow: 4px 4px 4px rgba(255, 177, 60, 0.1);
+  color: #fff !important;
+}
+
+.crypto_dark .card_detail h6 span {
+  color: #fff;
+}
+
+.get_tickets {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.get_tickets .btn_get_tickets {
+  background: #6d48e5;
+  border-radius: 20px;
+  color: #fff;
+  padding: 12px 20px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-out;
+  font-weight: 500;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.get_tickets .btn_get_tickets:hover {
+  background: #fff;
+  color: #6d48e5;
+  border: 1px solid #6d48e5;
+}
+
+.Combination_number ul {
+  margin: 0;
+}
+
+.Combination_number ul li {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 25px;
+  font-weight: 600;
+  background: linear-gradient(
+    180deg,
+    #6d48e5 0%,
+    rgba(109, 72, 229, 0.85) 100%
+  );
+  font-size: 12px;
+}
+
+.Combination_number ul li:last-child {
+  background: linear-gradient(180deg, #ffb13c 0%, #ff9900 100%);
+  box-shadow: 4px 4px 4px rgba(255, 177, 60, 0.1);
+}
+
+.latest_play .table-responsive .table tbody {
+  color: #6d48e5;
+}
+
+.latest_play .table-responsive .table tbody .transactions {
+  color: #4887e5;
+}
+
+.recent_winners .card {
+  position: relative;
+}
+
+.recent_winners .card .card_icon {
+  position: absolute;
+  top: 0;
+  left: 95%;
+  transform: translate(-50%, -50%);
+}
+
+.recent_winners .card .mid_title {
+  font-size: 18px;
+  padding: 1rem 0.5rem 0rem 0.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* End Overview */
+
+/* Profile */
+
+.account_deposit .card {
+  padding: 30px;
+}
+
+.account_deposit .card_title {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.transactions,
+.account_deposit .eth_address {
+  white-space: nowrap;
+  max-width: 350px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #6d48e5;
+  font-weight: 600;
+}
+
+.account_deposit .card_action .btn_copy,
+.account_deposit .card_action .btn_qr_code {
+  background: #6d48e5;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in;
+}
+
+.account_deposit .card_action .btn_copy:hover,
+.account_deposit .card_action .btn_qr_code:hover {
+  background: #fff;
+  color: #6d48e5;
+  border: 1px solid #6d48e5;
+}
+
+.available_budget .card-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.available_budget .card_content {
+  margin-left: 15px;
+}
+
+.available_budget .card_icon {
+  margin: auto 0;
+}
+
+.transaction_mytickets .number_tickets {
+  background: #6d48e5;
+  color: #fff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  padding: 2px;
+  font-size: 10px;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+}
+
+#my_ticket {
+  position: relative;
+}
+
+#my_ticket .number_tickets {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  right: -20px;
+}
+
+/* End Profile */

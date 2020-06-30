@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui"
+    />
+    <title>The Crypto Loterry</title>
+    <meta content="The Crypto Loterry" name="description" />
+    <meta content="The Crypto Loterry" name="author" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+    <link
+      href="assets/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="assets/css/metismenu.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/custom.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!-- Begin page -->
+    <div id="wrapper">
+      <!-- Top Bar Start -->
+      <div class="topbar">
+        <!-- LOGO -->
+        <div class="topbar-left">
+          <a href="index.html" class="logo">
+            <span class="logo-light">
+              <img src="assets/images/icon_lottery_small.png" width="40" />
+              CryptoLotter
+            </span>
+            <span class="logo-sm">
+              <img src="assets/images/icon_lottery_small.png" width="40" />
+            </span>
+          </a>
+        </div>
+        <nav class="navbar-custom">
+          <ul class="navbar-right list-inline float-right mb-0">
+            <!-- language-->
+            <li
+              class="dropdown notification-list list-inline-item d-none d-md-inline-block"
+            >
+              <a
+                class="nav-link dropdown-toggle arrow-none waves-effect"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="false"
+                aria-expanded="false"
+              >
+                <img
+                  src="assets/images/flags/us_flag.jpg"
+                  class="mr-2"
+                  height="12"
+                  alt=""
+                />
+                English <span class="mdi mdi-chevron-down"></span>
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right dropdown-menu-animated language-switch"
+              >
+                <a class="dropdown-item" href="#"
+                  ><img
+                    src="assets/images/flags/french_flag.jpg"
+                    alt=""
+                    height="16"
+                  /><span> French </span></a
+                >
+                <a class="dropdown-item" href="#"
+                  ><img
+                    src="assets/images/flags/spain_flag.jpg"
+                    alt=""
+                    height="16"
+                  /><span> Spanish </span></a
+                >
+                <a class="dropdown-item" href="#"
+                  ><img
+                    src="assets/images/flags/russia_flag.jpg"
+                    alt=""
+                    height="16"
+                  /><span> Russian </span></a
+                >
+                <a class="dropdown-item" href="#"
+                  ><img
+                    src="assets/images/flags/germany_flag.jpg"
+                    alt=""
+                    height="16"
+                  /><span> German </span></a
+                >
+                <a class="dropdown-item" href="#"
+                  ><img
+                    src="assets/images/flags/italy_flag.jpg"
+                    alt=""
+                    height="16"
+                  /><span> Italian </span></a
+                >
+              </div>
+            </li>
+
+            <!-- Email -->
+            <li class="dropdown notification-list list-inline-item">
+              <a
+                class="nav-link dropdown-toggle arrow-none waves-effect"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="false"
+                aria-expanded="false"
+              >
+                <i class="mdi mdi-email-outline noti-icon"></i>
+                <span class="badge badge-pill badge-danger noti-icon-badge"
+                  >3</span
+                >
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right dropdown-menu-animated dropdown-menu-lg px-1"
+              >
+                <!-- item-->
+                <h6 class="dropdown-item-text">
+                  Notifications
+                </h6>
+                <div class="slimscroll notification-item-list">
+                  <!-- item-->
+                  <a
+                    href="javascript:void(0);"
+                    class="dropdown-item notify-item active"
+                  >
+                    <div class="notify-icon bg-success">
+                      <i class="mdi mdi-cart-outline"></i>
+                    </div>
+                    <p class="notify-details">
+                      <b>Your order is placed</b
+                      ><span class="text-muted"
+                        >Dummy text of the printing and typesetting
+                        industry.</span
+                      >
+                    </p>
+                  </a>
+                  <!-- item-->
+                  <a
+                    href="javascript:void(0);"
+                    class="dropdown-item notify-item"
+                  >
+                    <div class="notify-icon bg-danger">
+                      <i class="mdi mdi-message-text-outline"></i>
+                    </div>
+                    <p class="notify-details">
+                      <b>New Message received</b
+                      ><span class="text-muted"
+                        >You have 87 unread messages</span
+                      >
+                    </p>
+                  </a>
+
+                  <!-- item-->
+                  <a
+                    href="javascript:void(0);"
+                    class="dropdown-item notify-item"
+                  >
+                    <div class="notify-icon bg-info">
+                      <i class="mdi mdi-filter-outline"></i>
+                    </div>
+                    <p class="notify-details">
+                      <b>Your item is shipped</b
+                      ><span class="text-muted"
+                        >It is a long established fact that a reader will</span
+                      >
+                    </p>
+                  </a>
+
+                  <!-- item-->
+                  <a
+                    href="javascript:void(0);"
+                    class="dropdown-item notify-item"
+                  >
+                    <div class="notify-icon bg-success">
+                      <i class="mdi mdi-message-text-outline"></i>
+                    </div>
+                    <p class="notify-details">
+                      <b>New Message received</b
+                      ><span class="text-muted"
+                        >You have 87 unread messages</span
+                      >
+                    </p>
+                  </a>
+
+                  <!-- item-->
+                  <a
+                    href="javascript:void(0);"
+                    class="dropdown-item notify-item"
+                  >
+                    <div class="notify-icon bg-warning">
+                      <i class="mdi mdi-cart-outline"></i>
+                    </div>
+                    <p class="notify-details">
+                      <b>Your order is placed</b
+                      ><span class="text-muted"
+                        >Dummy text of the printing and typesetting
+                        industry.</span
+                      >
+                    </p>
+                  </a>
+                </div>
+                <!-- All-->
+                <a
+                  href="javascript:void(0);"
+                  class="dropdown-item text-center notify-all text-primary"
+                >
+                  View all <i class="fi-arrow-right"></i>
+                </a>
+              </div>
+            </li>
+
+            <!-- notification -->
+            <li class="dropdown notification-list list-inline-item">
+              <a
+                class="nav-link dropdown-toggle arrow-none waves-effect"
+                data-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-haspopup="false"
+                aria-expanded="false"
+              >
+                <i class="mdi mdi-bell-outline noti-icon"></i>
+                <span class="badge badge-pill badge-danger noti-icon-badge"
+                  >3</span
+                >
+              </a>
+              <div
+                class="dropdown-menu dropdown-menu-right dropdown-menu-animated dropdown-menu-lg px-1"
+              >
+                <!-- item-->
+                <h6 class="dropdown-item-text">
+                  Notifications
+                </h6>
+                <div class="slimscroll notification-item-list">
+                  <!-- item-->
+                  <a
+                    href="javascript:void(0);"
+                    class="dropdown-item notify-item active"
+                  >
+                    <div class="notify-icon bg-success">
+                      <i class="mdi mdi-cart-outline"></i>
+                    </div>
+                    <p class="notify-details">
+                      <b>Your order is placed</b
+                      ><span class="text-muted"
+                        >Dummy text of the printing and typesetting
+                        industry.</span
+                      >
+                    </p>
+                  </a>
+
+                  <!-- item-->
+                  <a
+                    href="javascript:void(0);"
+                    class="dropdown-item notify-item"
+                  >
+                    <div class="notify-icon bg-danger">
+                      <i class="mdi mdi-message-text-outline"></i>
+                    </div>
+                    <p class="notify-details">
+                      <b>New Message received</b
+                      ><span class="text-muted"
+                        >You have 87 unread messages</span
+                      >
+                    </p>
+                  </a>
+
+                  <!-- item-->
+                  <a
+                    href="javascript:void(0);"
+                    class="dropdown-item notify-item"
+                  >
+                    <div class="notify-icon bg-info">
+                      <i class="mdi mdi-filter-outline"></i>
+                    </div>
+                    <p class="notify-details">
+                      <b>Your item is shipped</b
+                      ><span class="text-muted"
+                        >It is a long established fact that a reader will</span
+                      >
+                    </p>
+                  </a>
+
+                  <!-- item-->
+                  <a
+                    href="javascript:void(0);"
+                    class="dropdown-item notify-item"
+                  >
+                    <div class="notify-icon bg-success">
+                      <i class="mdi mdi-message-text-outline"></i>
+                    </div>
+                    <p class="notify-details">
+                      <b>New Message received</b
+                      ><span class="text-muted"
+                        >You have 87 unread messages</span
+                      >
+                    </p>
+                  </a>
+
+                  <!-- item-->
+                  <a
+                    href="javascript:void(0);"
+                    class="dropdown-item notify-item"
+                  >
+                    <div class="notify-icon bg-warning">
+                      <i class="mdi mdi-cart-outline"></i>
+                    </div>
+                    <p class="notify-details">
+                      <b>Your order is placed</b
+                      ><span class="text-muted"
+                        >Dummy text of the printing and typesetting
+                        industry.</span
+                      >
+                    </p>
+                  </a>
+                </div>
+                <!-- All-->
+                <a
+                  href="javascript:void(0);"
+                  class="dropdown-item text-center notify-all text-primary"
+                >
+                  View all <i class="fi-arrow-right"></i>
+                </a>
+              </div>
+            </li>
+
+            <li class="dropdown notification-list list-inline-item">
+              <div class="dropdown notification-list nav-pro-img">
+                <a
+                  class="dropdown-toggle nav-link arrow-none nav-user"
+                  data-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="false"
+                  aria-expanded="false"
+                >
+                  <img
+                    src="assets/images/users/user-4.jpg"
+                    alt="user"
+                    class="rounded-circle"
+                  />
+                  <span class="d-none d-lg-inline">George Martin</span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right profile-dropdown">
+                  <!-- item-->
+                  <a class="dropdown-item" href="#"
+                    ><i class="mdi mdi-account-circle"></i> Profile</a
+                  >
+                  <a class="dropdown-item" href="#"
+                    ><i class="mdi mdi-wallet"></i> Wallet</a
+                  >
+                  <a class="dropdown-item d-block" href="#"
+                    ><span class="badge badge-success float-right">11</span
+                    ><i class="mdi mdi-settings"></i> Settings</a
+                  >
+                  <a class="dropdown-item" href="#"
+                    ><i class="mdi mdi-lock-open-outline"></i> Lock screen</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item text-danger" href="#"
+                    ><i class="mdi mdi-power text-danger"></i> Logout</a
+                  >
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="list-inline menu-left mb-0">
+            <li class="float-left">
+              <button class="button-menu-mobile open-left waves-effect">
+                <i class="mdi mdi-menu"></i>
+              </button>
+            </li>
+            <li class="d-none d-md-inline-block">
+              <form role="search" class="app-search">
+                <div class="form-group mb-0">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Search.."
+                  />
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </div>
+              </form>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Top Bar End -->
+
+      <!-- ========== Left Sidebar Start ========== -->
+      <div class="left side-menu">
+        <div class="slimscroll-menu" id="remove-scroll">
+          <!--- Sidemenu -->
+          <div id="sidebar-menu">
+            <!-- Left Menu Start -->
+            <ul class="metismenu" id="side-menu">
+              <li>
+                <a href="index.html" class="waves-effect">
+                  <i class="icon-accelerator"></i><span> Overview </span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="waves-effect">
+                  <i class="mdi mdi-ticket"></i
+                  ><span> Buy Tickets & Play </span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="waves-effect">
+                  <i class="mdi mdi-format-list-bulleted"></i
+                  ><span> Results </span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="waves-effect">
+                  <i class="mdi mdi-repeat"></i><span> Transaction </span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="waves-effect">
+                  <i class="mdi mdi-account-box-outline"></i
+                  ><span> Profile </span>
+                </a>
+              </li>
+
+              <div class="divider"></div>
+              <li>
+                <a href="#" class="waves-effect">
+                  <i class="mdi mdi-help-circle"></i><span> How To Play </span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="waves-effect">
+                  <i class="mdi mdi-flag-outline"></i><span> Term of Use </span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="waves-effect">
+                  <i class="mdi mdi-marker-check"></i
+                  ><span> Privacy Policy </span>
+                </a>
+              </li>
+              <div class="divider"></div>
+            </ul>
+          </div>
+          <!-- Sidebar -->
+          <div class="clearfix"></div>
+        </div>
+        <!-- Sidebar -left -->
+      </div>
+      <!-- Left Sidebar End -->
+
+      <!-- ============================================================== -->
+      <!-- Start right Content here -->
+      <!-- ============================================================== -->
+      <div class="content-page">
+        <!-- Start content -->
+        <div class="content">
+          <div class="page-title-box box-md">
+            <div class="row align-items-center">
+              <div class="col-sm-6">
+                <h4 class="page-title">Overview</h4>
+              </div>
+              <div class="col-sm-6">
+                <ol class="breadcrumb float-right">
+                  <li class="breadcrumb-item">
+                    <a href="javascript:void(0);">Crypto</a>
+                  </li>
+                  <li class="breadcrumb-item active">Overview</li>
+                </ol>
+              </div>
+            </div>
+            <!-- end row -->
+          </div>
+          <!-- end page-title -->
+          <div class="inner-content-page">
+            <div class="section overview">
+              <div class="container">
+                <!-- START ROW -->
+                <div class="row">
+                  <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="card crypto_shadow">
+                      <div class="card-body card_body_custom d-flex">
+                        <div class="card_icon">
+                          <img
+                            src="assets/images/icon/ov_treasure.svg"
+                            alt=""
+                            width="60"
+                          />
+                        </div>
+                        <div class="card_content">
+                          <div class="card-title">9.23745 BTC</div>
+                          <div class="card-text">Current Jackpot</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="card crypto_dark crypto_shadow">
+                      <div class="card-body card_body_custom d-flex">
+                        <div class="card_icon">
+                          <img
+                            src="assets/images/icon/ov_clock.svg"
+                            alt=""
+                            width="60"
+                          />
+                        </div>
+                        <div class="card_content">
+                          <div class="card-title txt_white">18:24:12</div>
+                          <div class="card-text txt_white">Until Next Draw</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="card crypto_shadow">
+                      <div class="card-body card_body_custom d-flex">
+                        <div class="card_icon">
+                          <img
+                            src="assets/images/icon/ov_vip.svg"
+                            alt=""
+                            width="60"
+                          />
+                        </div>
+                        <div class="card_content">
+                          <div class="card-title txt_primary">158</div>
+                          <div class="card-text">Tickets Sold</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <a href="#" class="btn btn-block btn-action btn_color_3"
+                      >BUY TICKET NOW</a
+                    >
+                  </div>
+                </div>
+                <!-- END ROW -->
+              </div>
+            </div>
+            <div class="section recent_jackpot">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="section_title mb-5">
+                      <h2>Recent Jackpot Hit</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="card crypto_shadow">
+                      <div class="card-body card_body_custom">
+                        <div class="card_top d-flex justify-content-between">
+                          <div class="card_date">15 June, 2020</div>
+                          <div class="card_more">
+                            <i class="fas fa-ellipsis-h"></i>
+                          </div>
+                        </div>
+                        <div class="card_content d-flex align-items-center">
+                          <img
+                            src="assets/images/icon/bitcoin-brands.svg"
+                            width="60"
+                            class="p-2"
+                          />
+                          <div class="card-title txt_secondary m-0">
+                            9.23745 BTC
+                          </div>
+                        </div>
+                        <ul class="result-lotte pb-3">
+                          <li class="text-white text-center mr-1">1</li>
+                          <li class="text-white text-center mr-1">3</li>
+                          <li class="text-white text-center mr-1">5</li>
+                          <li class="text-white text-center mr-1">26</li>
+                          <li class="text-white text-center mr-1">33</li>
+                          <li class="text-white text-center mr-1">15</li>
+                        </ul>
+                        <div class="card_detail d-flex flex-wrap">
+                          <h6>Draw No. <span>#47</span></h6>
+                          <h6>TICKETS SOLD <span>1,500</span></h6>
+                          <h6>WINNERS <span>10</span></h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="card crypto_shadow">
+                      <div class="card-body card_body_custom">
+                        <div class="card_top d-flex justify-content-between">
+                          <div class="card_date">15 June, 2020</div>
+                          <div class="card_more">
+                            <i class="fas fa-ellipsis-h"></i>
+                          </div>
+                        </div>
+                        <div class="card_content d-flex align-items-center">
+                          <img
+                            src="assets/images/icon/bitcoin-brands.svg"
+                            width="60"
+                            class="p-2"
+                          />
+                          <div class="card-title txt_secondary m-0">
+                            9.23745 BTC
+                          </div>
+                        </div>
+                        <ul class="result-lotte pb-3">
+                          <li class="text-white text-center mr-1">1</li>
+                          <li class="text-white text-center mr-1">3</li>
+                          <li class="text-white text-center mr-1">5</li>
+                          <li class="text-white text-center mr-1">26</li>
+                          <li class="text-white text-center mr-1">33</li>
+                          <li class="text-white text-center mr-1">15</li>
+                        </ul>
+                        <div class="card_detail d-flex flex-wrap">
+                          <h6>Draw No. <span>#47</span></h6>
+                          <h6>TICKETS SOLD <span>1,500</span></h6>
+                          <h6>WINNERS <span>10</span></h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="card crypto_shadow crypto_dark">
+                      <div class="card-body card_body_custom">
+                        <div class="card_top d-flex justify-content-between">
+                          <div class="card_date">15 June, 2020</div>
+                          <div class="card_more">
+                            <i class="fas fa-ellipsis-h"></i>
+                          </div>
+                        </div>
+                        <div class="card_content d-flex align-items-center">
+                          <img
+                            src="assets/images/icon/bitcoin-brands.svg"
+                            width="60"
+                            class="p-2"
+                          />
+                          <div class="card-title txt_secondary m-0">
+                            9.23745 BTC
+                          </div>
+                        </div>
+                        <ul class="result-lotte pb-3">
+                          <li class="text-white text-center mr-1">1</li>
+                          <li class="text-white text-center mr-1">3</li>
+                          <li class="text-white text-center mr-1">5</li>
+                          <li class="text-white text-center mr-1">26</li>
+                          <li class="text-white text-center mr-1">33</li>
+                          <li class="text-white text-center mr-1">15</li>
+                        </ul>
+                        <div class="card_detail d-flex flex-wrap">
+                          <h6>Draw No. <span>#47</span></h6>
+                          <h6>TICKETS SOLD <span>1,500</span></h6>
+                          <h6>WINNERS <span>10</span></h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section latest_play">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12 col-md-10 col-lg-10">
+                    <div class="section_title mb-5">
+                      <h2>Recent Jackpot Hit</h2>
+                    </div>
+                  </div>
+                  <div class="col-sm-2 col-md-2 col-lg-2">
+                    <div class="get_tickets mb-5">
+                      <a href="#" class="btn_get_tickets crypto_shadow">
+                        Get tickets</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="card m-b-30">
+                      <div class="card-body">
+                        <h4 class="mt-0 header-title mb-5">Recent Tickets</h4>
+                        <div class="table-responsive">
+                          <table class="table table-hover">
+                            <thead>
+                              <tr>
+                                <th scope="col">NAME</th>
+                                <th scope="col">DRAW</th>
+                                <th scope="col">DATE</th>
+                                <th scope="col">COMBINATION</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Philip Smead</td>
+                                <td>
+                                  #120
+                                </td>
+                                <td>02/06/20</td>
+                                <td>
+                                  <div class="Combination_number">
+                                    <ul class="result-lotte">
+                                      <li class="text-white text-center mr-1">
+                                        1
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        3
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        5
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        26
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        33
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        15
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>Philip Smead</td>
+                                <td>
+                                  #120
+                                </td>
+                                <td>02/06/20</td>
+                                <td>
+                                  <div class="Combination_number">
+                                    <ul class="result-lotte">
+                                      <li class="text-white text-center mr-1">
+                                        1
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        3
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        5
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        26
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        33
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        15
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>Philip Smead</td>
+                                <td>
+                                  #120
+                                </td>
+                                <td>02/06/20</td>
+                                <td>
+                                  <div class="Combination_number">
+                                    <ul class="result-lotte">
+                                      <li class="text-white text-center mr-1">
+                                        1
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        3
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        5
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        26
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        33
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        15
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>Philip Smead</td>
+                                <td>
+                                  #120
+                                </td>
+                                <td>02/06/20</td>
+                                <td>
+                                  <div class="Combination_number">
+                                    <ul class="result-lotte">
+                                      <li class="text-white text-center mr-1">
+                                        1
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        3
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        5
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        26
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        33
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        15
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>Philip Smead</td>
+                                <td>
+                                  #120
+                                </td>
+                                <td>02/06/20</td>
+                                <td>
+                                  <div class="Combination_number">
+                                    <ul class="result-lotte">
+                                      <li class="text-white text-center mr-1">
+                                        1
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        3
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        5
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        26
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        33
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        15
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>Philip Smead</td>
+                                <td>
+                                  #120
+                                </td>
+                                <td>02/06/20</td>
+                                <td>
+                                  <div class="Combination_number">
+                                    <ul class="result-lotte">
+                                      <li class="text-white text-center mr-1">
+                                        1
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        3
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        5
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        26
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        33
+                                      </li>
+                                      <li class="text-white text-center mr-1">
+                                        15
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="card m-b-30">
+                      <div class="card-body">
+                        <h4 class="mt-0 header-title mb-2">
+                          Recent Transactions
+                        </h4>
+                        <ul
+                          class="nav nav-tabs custom_nav_tabs"
+                          id="transactionsTabs"
+                          role="tablist"
+                        >
+                          <li class="nav-item">
+                            <a
+                              class="nav-link active"
+                              id="messages-tab"
+                              data-toggle="tab"
+                              href="#incoming"
+                              role="tab"
+                              aria-controls="messages"
+                              aria-selected="false"
+                              >INCOMING
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a
+                              class="nav-link"
+                              id="settings-tab"
+                              data-toggle="tab"
+                              href="#outcoming"
+                              role="tab"
+                              aria-controls="settings"
+                              aria-selected="false"
+                              >OUTCOMING</a
+                            >
+                          </li>
+                        </ul>
+                        <div class="tab-content">
+                          <div
+                            class="tab-pane"
+                            id="incoming"
+                            role="tabpanel"
+                            aria-labelledby="messages-tab"
+                          >
+                            <div class="table-responsive">
+                              <table class="table table-hover">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">TRANSACTION ID</th>
+                                    <th scope="col">USERNAME</th>
+                                    <th scope="col">DATE</th>
+                                    <th scope="col">AMOUNT</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td class="transactions">
+                                      76ffa64bf7yue8...
+                                    </td>
+                                    <td>
+                                      Dominic Johnson
+                                    </td>
+                                    <td>02/06/20</td>
+                                    <td>
+                                      4.591,39 ETH
+                                    </td>
+                                  </tr>
+                                </tbody>
+                                <tr>
+                                  <td class="transactions">
+                                    76ffa64bf7yue8...
+                                  </td>
+                                  <td>
+                                    Dominic Johnson
+                                  </td>
+                                  <td>02/06/20</td>
+                                  <td>
+                                    4.591,39 ETH
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="transactions">
+                                    76ffa64bf7yue8...
+                                  </td>
+                                  <td>
+                                    Dominic Johnson
+                                  </td>
+                                  <td>02/06/20</td>
+                                  <td>
+                                    4.591,39 ETH
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="transactions">
+                                    76ffa64bf7yue8...
+                                  </td>
+                                  <td>
+                                    Dominic Johnson
+                                  </td>
+                                  <td>02/06/20</td>
+                                  <td>
+                                    4.591,39 ETH
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="transactions">
+                                    76ffa64bf7yue8...
+                                  </td>
+                                  <td>
+                                    Dominic Johnson
+                                  </td>
+                                  <td>02/06/20</td>
+                                  <td>
+                                    4.591,39 ETH
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="transactions">
+                                    76ffa64bf7yue8...
+                                  </td>
+                                  <td>
+                                    Dominic Johnson
+                                  </td>
+                                  <td>02/06/20</td>
+                                  <td>
+                                    4.591,39 ETH
+                                  </td>
+                                </tr>
+                              </table>
+                            </div>
+                          </div>
+                          <div
+                            class="tab-pane"
+                            id="outcoming"
+                            role="tabpanel"
+                            aria-labelledby="settings-tab"
+                          >
+                            <div class="table-responsive">
+                              <table class="table table-hover">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">TRANSACTION ID</th>
+                                    <th scope="col">USERNAME</th>
+                                    <th scope="col">DATE</th>
+                                    <th scope="col">AMOUNT</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td class="transactions">
+                                      76ffa64bsdasdasdf7yue8...
+                                    </td>
+                                    <td>
+                                      Dominic Johnson
+                                    </td>
+                                    <td>02/06/20</td>
+                                    <td>
+                                      4.591,39 ETH
+                                    </td>
+                                  </tr>
+                                </tbody>
+                                <tr>
+                                  <td class="transactions">
+                                    76ffa64bf7yue8...
+                                  </td>
+                                  <td>
+                                    Dominic Johnson
+                                  </td>
+                                  <td>02/06/20</td>
+                                  <td>
+                                    4.591,39 ETH
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="transactions">
+                                    76ffa64bf7yue8...
+                                  </td>
+                                  <td>
+                                    Dominic Johnson
+                                  </td>
+                                  <td>02/06/20</td>
+                                  <td>
+                                    4.591,39 ETH
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="transactions">
+                                    76ffa64bf7yue8...
+                                  </td>
+                                  <td>
+                                    Dominic Johnson
+                                  </td>
+                                  <td>02/06/20</td>
+                                  <td>
+                                    4.591,39 ETH
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="transactions">
+                                    76ffa64bf7yue8...
+                                  </td>
+                                  <td>
+                                    Dominic Johnson
+                                  </td>
+                                  <td>02/06/20</td>
+                                  <td>
+                                    4.591,39 ETH
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="transactions">
+                                    76ffa64bf7yue8...
+                                  </td>
+                                  <td>
+                                    Dominic Johnson
+                                  </td>
+                                  <td>02/06/20</td>
+                                  <td>
+                                    4.591,39 ETH
+                                  </td>
+                                </tr>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section recent_winners">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="section_title mb-5">
+                      <h2>Recent Winners</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="card crypto_shadow">
+                      <div class="card_icon">
+                        <img
+                          src="assets/images/icon/crown.svg"
+                          alt=""
+                          width="90"
+                        />
+                      </div>
+                      <div class="card-body card_body_custom">
+                        <div class="card_top d-flex justify-content-between">
+                          <div class="card_date">15 June, 2020</div>
+                        </div>
+                        <div class="mid_title txt_primary">BRIAN MCDONALD</div>
+                        <div class="card_content d-flex align-items-center">
+                          <img
+                            src="assets/images/icon/bitcoin-brands.svg"
+                            width="60"
+                            class="p-2"
+                          />
+                          <div class="card-title txt_secondary m-0">
+                            9.23745 BTC
+                          </div>
+                        </div>
+
+                        <div class="card_detail d-flex flex-wrap">
+                          <h6>Draw No. <span>#47</span></h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="card crypto_shadow crypto_dark">
+                      <div class="card_icon">
+                        <img
+                          src="assets/images/icon/crown.svg"
+                          alt=""
+                          width="90"
+                        />
+                      </div>
+                      <div class="card-body card_body_custom">
+                        <div class="card_top d-flex justify-content-between">
+                          <div class="card_date">15 June, 2020</div>
+                        </div>
+                        <div class="mid_title txt_white">BRIAN MCDONALD</div>
+                        <div class="card_content d-flex align-items-center">
+                          <img
+                            src="assets/images/icon/bitcoin-brands.svg"
+                            width="60"
+                            class="p-2"
+                          />
+                          <div class="card-title txt_secondary m-0">
+                            9.23745 BTC
+                          </div>
+                        </div>
+
+                        <div class="card_detail d-flex flex-wrap">
+                          <h6>Draw No. <span>#47</span></h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="card crypto_shadow">
+                      <div class="card_icon">
+                        <img
+                          src="assets/images/icon/crown.svg"
+                          alt=""
+                          width="90"
+                        />
+                      </div>
+                      <div class="card-body card_body_custom">
+                        <div class="card_top d-flex justify-content-between">
+                          <div class="card_date">15 June, 2020</div>
+                        </div>
+                        <div class="mid_title txt_primary">BRIAN MCDONALD</div>
+                        <div class="card_content d-flex align-items-center">
+                          <img
+                            src="assets/images/icon/bitcoin-brands.svg"
+                            width="60"
+                            class="p-2"
+                          />
+                          <div class="card-title txt_secondary m-0">
+                            9.23745 BTC
+                          </div>
+                        </div>
+
+                        <div class="card_detail d-flex flex-wrap">
+                          <h6>Draw No. <span>#47</span></h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- container-fluid -->
+          </div>
+        </div>
+        <!-- content -->
+
+        <footer class="footer">
+          © 2020 TheCryptoLottery
+          <span class="d-none d-sm-inline-block">
+            - Crafted with <i class="mdi mdi-heart text-danger"></i> by
+            Waostudio</span
+          >.
+        </footer>
+      </div>
+      <!-- ============================================================== -->
+      <!-- End Right content here -->
+      <!-- ============================================================== -->
+    </div>
+    <!-- END wrapper -->
+
+    <!-- jQuery  -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/metismenu.min.js"></script>
+    <script src="assets/js/jquery.slimscroll.js"></script>
+    <script src="assets/js/waves.min.js"></script>
+
+    <!-- App js -->
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
