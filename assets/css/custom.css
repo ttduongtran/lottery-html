@@ -486,11 +486,11 @@ input.form-control {
   border: 1px solid #6d48e5;
 }
 
-.Combination_number ul {
+.combination_number ul {
   margin: 0;
 }
 
-.Combination_number ul li {
+.combination_number ul li {
   display: inline-block;
   width: 25px;
   height: 25px;
@@ -505,7 +505,7 @@ input.form-control {
   font-size: 12px;
 }
 
-.Combination_number ul li:last-child {
+.combination_number ul li:last-child {
   background: linear-gradient(180deg, #ffb13c 0%, #ff9900 100%);
   box-shadow: 4px 4px 4px rgba(255, 177, 60, 0.1);
 }
@@ -557,6 +557,19 @@ input.form-control {
   text-overflow: ellipsis;
   color: #6d48e5;
   font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .account_deposit .card_action {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .transactions,
+  .account_deposit .eth_address {
+    max-width: 280px;
+  }
 }
 
 .account_deposit .card_action .btn_copy,
@@ -611,6 +624,176 @@ input.form-control {
   transform: translate(-50%, -50%);
   top: 50%;
   right: -20px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.ticket {
+  width: 100%;
+  min-height: 150px;
+  background: #6d48e5;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.ticket_wrapper {
+  width: 100%;
+}
+
+.ticket_rip {
+  position: relative;
+  height: 20px;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.ticket_divider {
+  width: 100%;
+  margin: 0px 10;
+  border: 1px #fff dashed;
+}
+
+.ticket_rip::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  left: -10px;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
+  border: 5px solid transparent;
+  border-top-color: #fff;
+  border-right-color: #fff;
+  border-radius: 100%;
+  pointer-events: none;
+  background: #fff;
+}
+
+.ticket_rip::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
+  border: 5px solid transparent;
+  border-top-color: #fff;
+  border-right-color: #fff;
+  border-radius: 100%;
+  pointer-events: none;
+  right: -30px;
+  background: #fff;
+}
+
+.ticket_header {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 0px 25px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.ticket_header .ticket_draw p span {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .ticket_header {
+    font-size: 14px;
+  }
+}
+
+.ticket_body .ticket_number {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.ticket_body .ticket_number li {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  font-weight: bold;
+  background: #fff;
+  color: #6d48e5;
+  font-size: 14px;
+}
+
+.ticket_body .ticket_number li:last-child {
+  background: linear-gradient(180deg, #ffb13c 0%, #ff9900 100%);
+  box-shadow: 4px 4px 4px rgba(255, 177, 60, 0.1);
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .ticket_body .ticket_number li {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+  }
+}
+
+.draw_result ul {
+  margin: 0;
+}
+
+.draw_result ul li {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 25px;
+  font-weight: 600;
+  background: linear-gradient(
+    180deg,
+    #6d48e5 0%,
+    rgba(109, 72, 229, 0.85) 100%
+  );
+  font-size: 12px;
+}
+
+.draw_result ul li:last-child {
+  background: linear-gradient(180deg, #ffb13c 0%, #ff9900 100%);
+  box-shadow: 4px 4px 4px rgba(255, 177, 60, 0.1);
+}
+
+.number_of_tickets {
+  color: #4887e5;
+  font-weight: 600;
 }
 
 /* End Profile */

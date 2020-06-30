@@ -168,3 +168,36 @@ $("#transactionsTabs a").on("click", function (e) {
   e.preventDefault();
   $(this).tab("show");
 });
+
+//add setTimeout fix slidesPerView after change tab my tickets -> profile page
+
+$("#my_ticket").on("click", function () {
+  setTimeout(function () {
+    var swiper = new Swiper(".swiper-container", {
+      loop: true,
+      slidesPerView: 3,
+      spaceBetween: 30,
+      grabCursor: true,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+        clickable: true,
+      },
+      breakpoints: {
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+      },
+    });
+  }, 0);
+});
