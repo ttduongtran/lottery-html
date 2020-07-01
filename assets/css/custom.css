@@ -514,7 +514,7 @@ input.form-control {
   color: #6d48e5;
 }
 
-.latest_play .table-responsive .table tbody .transactions {
+.latest_play .table-responsive .table tbody .transactions_id {
   color: #4887e5;
 }
 
@@ -549,7 +549,7 @@ input.form-control {
   margin-bottom: 12px;
 }
 
-.transactions,
+.transactions_id,
 .account_deposit .eth_address {
   white-space: nowrap;
   max-width: 300px;
@@ -560,7 +560,7 @@ input.form-control {
 }
 
 @media screen and (max-width: 1024px) {
-  .transactions,
+  .transactions_id,
   .account_deposit .eth_address {
     max-width: 250px;
   }
@@ -797,3 +797,30 @@ input.form-control {
 }
 
 /* End Profile */
+
+/* transactions_id */
+
+.transactions .transactions_id {
+  color: #4887e5;
+}
+
+.transactions #trans_incoming tbody,
+.transactions #trans_outcoming tbody {
+  color: #6d48e5;
+}
+
+.transactions .transactions_id {
+  white-space: nowrap;
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+  .transactions .transactions_id {
+    max-width: 150px;
+  }
+}
+
+/* End transactions_id */

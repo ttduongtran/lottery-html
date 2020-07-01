@@ -164,6 +164,7 @@ $(document).ready(function () {
   });
 });
 $("#incoming").tab("show");
+$("#trans_incoming").tab("show");
 $("#transactionsTabs a").on("click", function (e) {
   e.preventDefault();
   $(this).tab("show");
