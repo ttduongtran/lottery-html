@@ -196,6 +196,12 @@ input.form-control {
   border-bottom: 1px solid #6d48e5;
 }
 
+@media screen and (max-width: 768px) {
+  .section_title h2 {
+    font-size: 1.5rem;
+  }
+}
+
 /* end application css */
 
 /* sign_in page */
@@ -798,7 +804,7 @@ input.form-control {
 
 /* End Profile */
 
-/* transactions_id */
+/* transactions */
 
 .transactions .transactions_id {
   color: #4887e5;
@@ -823,4 +829,105 @@ input.form-control {
   }
 }
 
-/* End transactions_id */
+/* End transactions */
+
+/*  Results */
+
+.results .table tbody {
+  color: #6d48e5;
+}
+
+.results_number ul {
+  margin: 0;
+}
+
+.results_number ul li {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  font-weight: 600;
+  background: linear-gradient(
+    180deg,
+    #6d48e5 0%,
+    rgba(109, 72, 229, 0.85) 100%
+  );
+  font-size: 14px;
+}
+
+.results_number ul li:last-child {
+  background: linear-gradient(180deg, #ffb13c 0%, #ff9900 100%);
+  box-shadow: 4px 4px 4px rgba(255, 177, 60, 0.1);
+}
+
+.result_by_hash input.form-control {
+  border-radius: 20px 0px 0px 20px !important;
+  background: none;
+  border: 1px solid #6d48e5 !important;
+  padding-left: 0;
+  box-shadow: none;
+  color: #6e6e6e;
+  margin: 0;
+  font-size: 14px;
+  padding: 30px;
+}
+
+.result_by_hash .check_now {
+  background: #6d48e5;
+  border: 1px solid #6d48e5;
+  border-radius: 0px 20px 20px 0px;
+  transition: all 0.3s ease;
+  color: #fff;
+  font-size: 14px;
+}
+
+.result_by_hash .check_now:hover {
+  background: #4887e5;
+  color: #fff;
+  border-color: #4887e5;
+}
+
+@media screen and (max-width: 768px) {
+  .result_by_hash input.form-control {
+    padding: 18;
+  }
+  .result_by_hash .check_now {
+    padding: 0;
+    font-size: 12px;
+    width: 120px;
+  }
+}
+
+.transparency_checking .transparency_code {
+  color: #6d48e5;
+  font-weight: 600;
+}
+
+.transparency_checking .card {
+  padding: 30px;
+}
+
+.transparency_checking .card .cart-title {
+  color: #959595;
+}
+
+.transparency_checking .list_hash .hash_item li {
+  display: inline-block;
+  width: auto;
+  height: 28px;
+  border-radius: 4px;
+  margin: 5px 2px;
+  line-height: 2;
+  font-weight: 500;
+  padding: 0 10px;
+  background: linear-gradient(
+    180deg,
+    #6d48e5 0%,
+    rgba(109, 72, 229, 0.85) 100%
+  );
+  font-size: 13px;
+  color: #fff;
+}
+
+/* End Results */
