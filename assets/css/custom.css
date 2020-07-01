@@ -931,3 +931,101 @@ input.form-control {
 }
 
 /* End Results */
+
+/* How to play */
+
+.howto_play {
+  margin-bottom: 80px;
+}
+
+.play_with_us {
+  padding: 30px;
+  position: relative;
+}
+
+.play_with_us .wrapper_img {
+  max-width: 300px;
+  position: absolute;
+  bottom: -40px;
+  right: -50px;
+}
+
+.play_with_us .detail .title {
+  color: #6d48e5;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.play_with_us .detail p {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .play_with_us .detail .title {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .play_with_us .detail p {
+    font-size: 1rem;
+  }
+  .play_with_us {
+    padding: 15px 15px 60px 15px;
+  }
+  .play_with_us .wrapper_img {
+    max-width: 200px;
+    bottom: -50px;
+    right: -50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .play_with_us .wrapper_img {
+    max-width: 150px;
+    bottom: -60px;
+    right: -30px;
+  }
+}
+
+.play_with_us .list_items {
+  width: 100%;
+}
+
+.play_with_us .list_items .item {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.play_with_us .list_items .item .item_icon {
+  flex: 12%;
+}
+
+.play_with_us .list_items .item .item_title {
+  flex: 88%;
+}
+
+.play_with_us .list_items .item .item_icon img {
+  width: 80px;
+}
+
+.play_with_us .list_items .item .item_title h4 {
+  font-weight: 600;
+}
+
+.play_with_us .list_items .item .item_title p {
+  font-size: 16;
+}
+
+@media screen and (max-width: 768px) {
+  .play_with_us .list_items .item .item_icon img {
+    width: 60px;
+    padding: 5px;
+  }
+  .play_with_us .list_items .item .item_title h4 {
+    font-size: 1rem;
+  }
+  .play_with_us .list_items .item .item_title p {
+    font-size: 14;
+  }
+}
+
+/* End How to play  */
